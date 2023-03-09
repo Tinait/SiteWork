@@ -1,0 +1,98 @@
+/**{*/
+/*color: mediumslateblue;*/
+/*}*/
+
+/*body{*/
+/*    background-color: #212121;*/
+/*}*/
+
+/*.main{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*}*/
+
+/*.picture{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.main img{*/
+/*    border-radius: 100%;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*}*/
+
+/*.link a{*/
+/*    color: white;*/
+/*    text-decoration: black;    !*убирает подчёркивание*!*/
+/*    border: white 4px solid;*/
+/*    border-radius: 50px;*/
+/*    padding: 7px;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/*.link a:hover{*/
+/*    background-color: darkmagenta;*/
+/*    color: white;*/
+/*}*/
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: mediumslateblue;
+}
+
+body{
+    background-color: #212121;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 1px;
+    height: 75px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    padding: 45px;
+    margin: 45px;
+}
+
+.main img{
+    width: 300px;
+    height: 200px;
+}
+
+.comment{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    padding-left: 80px;
+}
+
+.profile{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.profile img{
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+}
+.comment_text{
+    color: white;
+}
+
